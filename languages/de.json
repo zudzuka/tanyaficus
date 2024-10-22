@@ -1,0 +1,148 @@
+{
+    "header": {
+        "portfolio": "PORTFOLIO",
+        "contacts": "KONTAKTE",
+        "about": "ÜBER"
+    },
+    "index": {
+        "welcome_message": "Fotograf und Content Creator",
+        "about_us": "Ich erstelle seit über 9 Jahren Foto- und Videoinhalte für Websites und soziale Medien. Mein Ziel ist es, Kunden dabei zu helfen, ihre Geschichte durch visuelle Inhalte zu erzählen, ihre Zielgruppe anzuziehen und Loyalität aufzubauen.<br><br>Strategie, Analyse und Planung kommen zuerst – dann folgt die Ästhetik.",
+        "projects": "Projekte",
+        "project_doner": "Doner Eleven",
+        "project_sezim": "Sezim",
+        "project_bling_ring": "Bling Ring",
+        "project_okraina": "Okraina",
+        "project_video": "Video",
+        "project_vegafood": "Vegafood",
+        "project_zero_waste": "Zero Waste Shop Moskau",
+        "project_people": "Porträts"
+    },
+    "footer": {
+        "impressum": "Impressum",
+        "location": "Berlin, Deutschland"
+    },
+    "contacts": {
+        "title": "Kontakte",
+        "description": "Sollen wir zusammen ein großartiges Projekt erstellen? Schicken Sie mir eine E-Mail oder schreiben Sie mir auf Instagram, um die Kosten und den Zeitrahmen zu besprechen oder einen Beratungstermin zu vereinbaren. Sie können mich auch über das unten verlinkte Google-Kontaktformular erreichen.",
+        "instagram": "@tanyaficus",
+        "form": "Kontaktformular",
+        "email": "pianykh.tatiana@gmail.com"
+    },
+    "about": {
+        "title": "Über",
+        "services_title": "Meine Dienstleistungen:",
+        "services": {
+            "product_photography": "Produkt- und Lebensmittel-Fotografie und Videografie",
+            "menu_photography": "Fotografie für Speisekarten und Liefergerichte",
+            "personal_photoshoots": "Persönliche Fotoshootings für Blogs",
+            "short_videos": "Produktion kurzer Videos für verschiedene soziale Medien",
+            "content_planning": "Planung von Social-Media-Inhalten",
+            "content_consultation": "Beratung zu Social-Media-Inhalten"
+        },
+        "location_title": "Standort:",
+        "location": "Berlin, Deutschland",
+        "description": "Seit ich 16 Jahre alt bin, erstelle ich visuelle Inhalte. Ich habe einen Abschluss in Film- und Fernsehregie. Während meines Studiums entwickelte ich ein starkes Interesse an Marketing und daran, wie Marken durch visuelle Bilder mit ihren Kunden kommunizieren. Dies führte zu meinem beruflichen Schwerpunkt auf der Erstellung von Foto- und Videoinhalten für soziale Medien und Websites. Mein Hintergrund in der Regie ermöglicht es mir, erzählerische Elemente in all meine Arbeiten einzubringen."
+    },
+    "portfolio": {
+        "title": "Portfolio",
+        "doner_eleven": {
+            "name": "Doner Eleven",
+            "description": "Ich entwarf eine Markenidentität, die das Restaurant hervorhob und leicht erkennbar machte.<br><br>Meine visuelle Kommunikation zog die Zielgruppe an, und meine Fotos auf einer Liefer-App halfen dem Restaurant, eines der beliebtesten in der Stadt zu werden. Ich entwickelte auch eine Content-Strategie, die <b>ihren Instagram-Account von 0 auf 8.500 Follower</b> wachsen ließ und eine loyale Kundenbasis aufbaute."
+        },
+        "sezim": {
+            "name": "Sezim",
+            "description": "Das Restaurant führte ein neues Menü mit einem neuen Konzept ein, und meine Aufgabe war es, einen visuellen Stil für die Fotos zu entwickeln, der dies hervorhebt.<br><br>Ich entschied mich, Fotos mit der Atmosphäre eines Essens in einem Restaurant in der Toskana zu erstellen. Zum Zeitpunkt der Menüeinführung begann sich die Stadt gerade zu erwärmen, aber die Menschen sehnten sich bereits nach einer Frühlings- und Wärmeatmosphäre. Die Fotos in den sozialen Medien des Restaurants entsprachen den Wünschen der Kunden, was einen Zustrom neuer Gäste anzog."
+        },
+        "bling_ring": {
+            "name": "Bling Ring",
+            "description": "Das Unternehmen benötigte hochwertige Inhalte für ihre neue Schmuckkollektion, die für soziale Medien bestimmt war.<br><br>Ich entwickelte das visuelle Konzept für ihre sozialen Medien und fotografierte die Produkte. Durch die Nutzung von harten Beleuchtungstechniken und den Einsatz natürlicher Requisiten versuchte ich, die Essenz eines heißen Sommertages einzufangen. Für das Porträt-Shooting verwendete ich weiche Beleuchtung, um ein natürliches Aussehen zu erzielen und sicherzustellen, dass der Fokus auf dem Schmuck blieb, ohne Ablenkungen durch das Hautbild."
+        },
+        "okraina": {
+            "name": "Okraina",
+            "description": "Das Fleischproduktunternehmen führte neue Artikel in seine Produktpalette ein.<br><br>Sie brauchten eine Möglichkeit, die Aufmerksamkeit auf diese Produkte in ihrem Online-Shop zu lenken. Ich schlug vor, einmal pro Woche ein einfaches Rezept mit einem dieser Produkte auf der Website zu veröffentlichen, möglicherweise mit einem Rabatt darauf. Ich erstellte die Rezepte, fotografierte jeden Schritt des Zubereitungsprozesses und entwarf auch Banner für die Startseite der Website."
+        },
+        "video": {
+            "name": "Video",
+            "description": "Ich helfe auch Marken dabei, ansprechende kurze Videos für soziale Medien zu erstellen.<br><br>Vor dem Drehen führe ich immer eine Analyse des Markenbildes und der Bedürfnisse des Publikums durch. Zum Beispiel hängen das Tempo der Erzählung und die Länge der Aufnahmen vom Alter der Zielgruppe ab. Ich bevorzuge es, Videos mit einer Geschichte zu erstellen, einem kleinen Erzählstrang, wie in einem Kurzfilm. Ich drehe Videos mit einer Kamera, schreibe Drehbücher und übernehme den Schnitt."
+        },
+        "vegafood": {
+            "name": "Vegafood",
+            "description": "Ich entwickelte einen Produktionsprozess für ein veganes Unternehmen, der ihnen half, Geld zu sparen und dieselben Fotos auf Social Media, ihrer Website und mehr zu verwenden.<br><br>Ich nannte es <b>3-in-1 Shots</b>. Ich wählte Formate und Kompositionen, die leicht für Instagram, Website-Banner und Produktcover zugeschnitten werden konnten, ohne an Qualität zu verlieren. Dieser kostensparende Ansatz ermöglichte es dem Unternehmen, mehr Inhalte zu erstellen und seine Produkte effektiver zu bewerben."
+        },
+        "zero_waste": {
+            "name": "Zero Waste Shop Moskau",
+            "description": "In Moskau gab es 2019 viele Zero-Waste-Läden, und ihre Social-Media-Accounts sahen sehr ähnlich aus, was dazu führte, dass die Leute die Läden miteinander verwechselten.<br><br>Also entwickelte ich eine einzigartige Atmosphäre und Farbpalette speziell für diesen Laden. Ursprünglich war meine Aufgabe, ein Publikum im Alter von 18 bis 25 Jahren anzusprechen, aber nach einer Marktanalyse verlagerten wir den Fokus auf Menschen im Alter von 26 bis 40 Jahren. Der Laden wurde leichter erkennbar und hob sich von den Mitbewerbern ab, was den Anteil der Stammkunden erhöhte."
+        },
+        "people": {
+            "name": "Porträts",
+            "description": "Bei Fotoshootings für persönliche Blogs ist es mein Ziel, der Person zu helfen, zu analysieren, was sie durch die visuellen Inhalte ihres Blogs vermitteln möchte und welche Botschaft sie senden möchte. Bei der Porträtfotografie versuche ich, durch das Bild eine Geschichte zu erzählen, anstatt nur ein schönes Foto zu machen. Es ist für mich ein absolutes Tabu, die Haut zu retuschieren oder die Körperformen in Fotos von Menschen zu verändern."
+        }
+    },
+    "impressum": {
+        "title": "Impressum",
+        "name_label": "Name:",
+        "name": "Tatiana Pianykh",
+        "address_label": "Adresse:",
+        "address_line1": "Rathenower Straße 53",
+        "address_line2": "10559 Berlin",
+        "email_label": "E-Mail:",
+        "email": "pianykh.tatiana@gmail.com",
+        "contact_form_label": "Prompte Kommunikation::",
+        "contact_form": "Kontaktformular",
+        "vat_label": "USt-IdNr:",
+        "vat": "Site in development",
+
+        "copyright_title": "Urheberrechtshinweis",
+        "copyright_description": "Alle Fotos und Videos auf dieser Website wurden von Tatiana Pianykh erstellt. Die unbefugte Nutzung, Vervielfältigung oder Verbreitung dieser Materialien ist strengstens untersagt.",
+
+        "privacy_title": "Datenschutzerklärung",
+        "data_collection_title": "Welche Daten sammeln wir?",
+        "data_collection_description": "Diese Seite sammelt minimale Daten, darunter:",
+        "data_collection": {
+            "contact": "Kontaktinformationen: Wenn Sie das Kontaktformular verwenden, sammelt diese Seite Ihren Namen und Ihre E-Mail-Adresse.",
+            "usage": "Nutzungsdaten der Website: Cookies können anonyme Browserinformationen sammeln (wie z. B. welche Seiten Sie besuchen). Zusätzlich können IP-Adressen und Protokolle der Website-Nutzung von GitHub Pages gesammelt und gespeichert werden. Weitere Einzelheiten entnehmen Sie bitte der Datenschutzerklärung von GitHub."
+        },
+        "github_privacy_link": "GitHub-Datenschutzerklärung",
+
+        "data_collection_methods_title": "Wie sammeln wir Ihre Daten?",
+        "data_collection_methods_description": "Ihre Daten werden gesammelt, wenn Sie:",
+        "data_collection_methods": {
+            "contact": "Uns kontaktieren: Wenn Sie eine Nachricht über das Kontaktformular senden, werden Ihr Name und Ihre E-Mail-Adresse über Google Forms erfasst und in einem Google Sheet gespeichert.",
+            "website_use": "Die Website nutzen: Cookies werden verwendet, um bei Sprachänderungen und dem Kontaktformular zu helfen.",
+            "email": "Eine E-Mail schreiben: Wenn Sie eine E-Mail an unsere E-Mail-Adresse schreiben, werden Ihre E-Mail-Informationen mit Google Mail (Gmail) gespeichert."
+        },
+
+        "data_usage_title": "Wie verwenden wir Ihre Daten?",
+        "data_usage_description": "Diese Seite sammelt Ihre Daten, um:",
+        "data_usage": {
+            "respond": "Auf Ihre Anfragen zu antworten: Wenn Sie uns kontaktieren, werden Ihre Informationen verwendet, um auf Ihre Nachrichten zu antworten.",
+            "improve": "Die Website zu verbessern: Anonyme Nutzungsdaten der Website helfen, die Benutzererfahrung zu verbessern."
+        },
+
+        "data_storage_title": "Wie speichern wir Ihre Daten?",
+        "data_storage_description": "Da diese Website auf GitHub Pages gehostet wird, werden keine persönlichen Daten direkt auf dem Server der Website gespeichert. Wenn Sie uns kontaktieren, werden Ihre E-Mail-Informationen sicher in unserem E-Mail-Konto gespeichert, das den gängigen Sicherheitsprotokollen folgt. E-Mails werden mit Google Mail (Gmail) gespeichert, das über eigene Sicherheitsmaßnahmen verfügt. Daten aus dem Kontaktformular werden sicher in einem Google Sheet gespeichert.",
+
+        "cookies_title": "Cookies",
+        "cookies_description": "Cookies sind kleine Textdateien, die auf Ihrem Gerät platziert werden, um den Webverkehr zu analysieren oder Website-Besuche zu verfolgen. Diese Website verwendet minimale Cookies für:",
+        "cookies": {
+            "language": "Spracheinstellungen: Cookies helfen, Ihre Spracheinstellungen zu speichern.",
+            "contact_form": "Kontaktformular: Cookies unterstützen die Funktion des Kontaktformulars."
+        },
+        "cookies_disable": "Sie können Cookies über Ihre Browsereinstellungen deaktivieren, aber dies kann einige Funktionen der Website beeinträchtigen.",
+
+        "external_links_title": "Links zu anderen Websites",
+        "external_links_description": "Diese Website kann Links zu externen Seiten enthalten. Bitte beachten Sie, dass diese Datenschutzerklärung nur für diese Website gilt, und wenn Sie auf einen Link zu einer anderen Website klicken, sollten Sie deren Datenschutzerklärung lesen.",
+
+        "policy_changes_title": "Änderungen an dieser Datenschutzerklärung",
+        "policy_changes_description": "Diese Datenschutzerklärung wird regelmäßig überprüft und alle Updates werden auf dieser Seite veröffentlicht. Diese Datenschutzerklärung wurde zuletzt am 19.10.2024 aktualisiert.",
+
+        "contact_us_title": "Kontaktieren Sie uns",
+        "contact_us_description": "Wenn Sie Fragen zu dieser Datenschutzerklärung haben, können Sie uns gerne kontaktieren unter:",
+
+        "terms_title": "Allgemeine Geschäftsbedingungen",
+        "terms_description": "Die auf dieser Website bereitgestellten Inhalte dienen ausschließlich Informationszwecken. Obwohl alle Anstrengungen unternommen werden, um sicherzustellen, dass die bereitgestellten Informationen korrekt und aktuell sind, übernehmen wir keine Gewähr für die Vollständigkeit, Genauigkeit, Zuverlässigkeit, Eignung oder Verfügbarkeit der Inhalte auf dieser Website. Jegliches Vertrauen, das Sie in solche Informationen setzen, erfolgt ausschließlich auf eigenes Risiko.",
+        "terms_liability": "Wir haften nicht für Verluste oder Schäden, einschließlich, aber nicht beschränkt auf, indirekte oder Folgeschäden, die sich aus der Nutzung dieser Website ergeben. Dies schließt, ohne darauf beschränkt zu sein, jegliche Informationen, Produkte, Dienstleistungen oder damit zusammenhängende Grafiken ein, die auf der Website enthalten sind.",
+        "terms_external_links": "Links zu externen Websites werden zur Bequemlichkeit und zu Informationszwecken bereitgestellt; wir übernehmen keine Verantwortung für den Inhalt oder die Genauigkeit externer Websites. Wir haften nicht für Probleme, die durch die Nutzung von Links zu Drittanbietern entstehen.",
+        "terms_modification": "Wir behalten uns das Recht vor, diese Bedingungen jederzeit ohne vorherige Ankündigung zu ändern. Durch die fortgesetzte Nutzung der Website nach der Veröffentlichung von Änderungen stimmen Sie zu, an die geänderten Bedingungen gebunden zu sein."
+    }
+}

@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/img/favicon.png" type="image/png">
+    <link rel="shortcut icon" type="image/png" href="/img/favicon.png">
+    <link rel="shortcut icon" sizes="192x192" href="/img/favicon.png">
+    <link rel="apple-touch-icon" href="/img/favicon.png">
+    <title>Tanya Ficus</title>
+    <link href="style.css" rel="stylesheet" />
+    <style>
+        .contact-page {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            padding: 2rem;
+            color: #333;
+            font-size: 1.25em;
+            margin-bottom: 10em;
+        }
+
+        .contact-page h1 {
+            font-size: 2.5em;
+            margin-bottom: 1rem;
+        }
+
+        .contact-methods {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            gap: 2rem;
+            margin-top: 1.5rem;
+        }
+
+        .contact-method {
+            width: 14em;
+            height: 14em;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            border-radius: 1em;
+            box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+            background: #f7f7f7;
+        }
+
+        .contact-method:hover {
+            transform: translateY(-10px);
+        }
+
+        .contact-method img {
+            filter: invert(1);
+            width: 3.5em;
+            height: 3.5em;
+            margin-bottom: 1rem;
+        }
+
+        .contact-method a {
+            color: #333;
+            text-decoration: none;
+            font-size: 1em;
+            font-weight: bold;
+        }
+
+        .contact-method a:hover {
+            color: #0073e6;
+        }
+        .text {
+            text-align: justify;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <script src="header.js"></script>
+    </header>
+
+    <div class="page">
+        <div class="block">
+            <h1 data-i18n="contacts.title">Contacts</h1>
+            <p class="text" data-i18n="contacts.description">
+                Shall we create an awesome project together? Email me or message me on Instagram to discuss the cost and timeline or to schedule a consultation. You can also reach me via the Google Contact Form linked below.
+            </p>
+            <div class="contact-methods">
+                <div class="contact-method">
+                    <a href="https://www.instagram.com/tanyaficus" target="_blank">
+                        <img src="img/ig_logo.png" alt="Instagram">
+                    </a>
+                    <a href="https://www.instagram.com/tanyaficus" target="_blank" data-i18n="contacts.instagram">@tanyaficus</a>
+                </div>
+                <div class="contact-method">
+                    <a href="google form link" target="_blank">
+                        <img src="img/form.png" alt="Contact Form">
+                    </a>
+                    <a href="google form link" target="_blank" data-i18n="contacts.form">Contact Form</a>
+                </div>
+                <div class="contact-method">
+                    <a href="mailto:pianykh.tatiana@gmail.com">
+                        <img src="img/email.png" alt="Email">
+                    </a>
+                    <a href="mailto:pianykh.tatiana@gmail.com" data-i18n="contacts.email">pianykh.tatiana@gmail.com</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <footer>
+        <script src="footer.js"></script>
+    </footer>
+</body>
+</html>

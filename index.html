@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/img/favicon.png" type="image/png">
+    <link rel="shortcut icon" type="image/png" href="/img/favicon.png">
+    <link rel="shortcut icon" sizes="192x192" href="/img/favicon.png">
+    <link rel="apple-touch-icon" href="/img/favicon.png">
+    <title>Tanya Ficus</title>
+    <link href="style.css" rel="stylesheet" />
+    <style>
+        .projects {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1.5rem;
+            margin-top: 2rem;
+        }
+
+        .project-item {
+            position: relative;
+            overflow: hidden;
+        }
+
+        .project-item img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        .project-item video {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        .project-item .caption {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            background: rgba(0, 0, 0, 0.6);
+            color: white;
+            padding: 0.5rem;
+            text-align: center;
+            font-size: 1rem;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <script src="header.js"></script>
+    </header>
+
+    <div class="page">
+        <div class="block">
+            <h1 data-i18n="index.welcome_message">Photographer and Content Creator</h1>
+            <div class="description">
+                <img src="img/photographer.jpg" alt="Photographer Tanya Ficus">
+                <p data-i18n="index.about_us">
+                    I’ve been creating photo and video content for websites and social media for over 9 years. My goal is to help clients tell their story through visuals, attract their target audience, and build loyalty.
+                    <br><br>
+                    Strategy, analysis, and planning come first — then comes the aesthetics.
+                </p>
+            </div>
+        </div>
+
+        <div class="block">
+            <h1 data-i18n="index.projects">Projects</h1>
+            <div class="projects">
+                <div class="project-item">
+                    <a href="portfolio#doner_eleven">
+                        <img src="projects/1_doner/0.jpg" alt="Doner Eleven">
+                    </a>
+                    <div class="caption" data-i18n="index.project_doner">Doner Eleven</div>
+                </div>
+                <div class="project-item">
+                    <a href="portfolio#sezim">
+                        <img src="projects/2_sezim/0.jpg" alt="Sezim">
+                    </a>
+                    <div class="caption" data-i18n="index.project_sezim">Sezim</div>
+                </div>
+                <div class="project-item">
+                    <a href="portfolio#bling_ring">
+                        <img src="projects/3_jewelry/0.jpg" alt="Bling Ring">
+                    </a>
+                    <div class="caption" data-i18n="index.project_bling_ring">Bling Ring</div>
+                </div>
+                <div class="project-item">
+                    <a href="portfolio#okraina">
+                        <img src="projects/4_okraina/0.jpg" alt="Okraina">
+                    </a>
+                    <div class="caption" data-i18n="index.project_okraina">Okraina</div>
+                </div>
+                <div class="project-item">
+                    <a href="portfolio#video">
+                        <video autoplay loop>
+                            <source src="projects/5_video/video_0.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                    </a>
+                    <div class="caption" data-i18n="index.project_video">Video</div>
+                </div>
+                <div class="project-item">
+                    <a href="portfolio#vegafood">
+                        <img src="projects/6_vegafood/0.jpg" alt="Vegafood">
+                    </a>
+                    <div class="caption" data-i18n="index.project_vegafood">Vegafood</div>
+                </div>
+                <div class="project-item">
+                    <a href="portfolio#zero_waste">
+                        <img src="projects/7_zerowaste/0.jpg" alt="Zero Waste Shop Moscow">
+                    </a>
+                    <div class="caption" data-i18n="index.project_zero_waste">Zero Waste Shop Moscow</div>
+                </div>
+                <div class="project-item">
+                    <a href="portfolio#people">
+                        <img src="projects/8_people/0.jpg" alt="People">
+                    </a>
+                    <div class="caption" data-i18n="index.project_people">People</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <script src="footer.js"></script>
+    </footer>
+</body>
+</html>

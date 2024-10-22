@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/img/favicon.png" type="image/png">
+    <link rel="shortcut icon" type="image/png" href="/img/favicon.png">
+    <link rel="shortcut icon" sizes="192x192" href="/img/favicon.png">
+    <link rel="apple-touch-icon" href="/img/favicon.png">
+    <title>Tanya Ficus</title>
+    <link href="style.css" rel="stylesheet" />
+    <style>
+        .carousel {
+            position: relative;
+            max-width: 100%;
+            margin: auto;
+            overflow: hidden;
+            padding-bottom: 2em;
+        }
+
+
+/*        .carousel::after{
+            content: "";
+            display: block;
+            width: 100%;
+            height: 2px;
+            background-color: #c0c0c0;
+            margin-top: 0.5rem;
+        }*/
+
+        .carousel-images {
+            display: flex;
+            transition: transform 0.5s ease-in-out;
+        }
+
+        .carousel-images img {
+            width: calc(100% / 3);
+            flex: 0 0 calc(100% / 3);
+            object-fit: cover; /* Keeps the aspect ratio intact */
+            height: auto; /* Allows image to adjust its height automatically */
+        }
+
+        .prev, .next {
+            cursor: pointer;
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            background-color: rgba(0, 0, 0, 0.5);
+            color: white;
+            font-size: 18px;
+            padding: 10px;
+            border: none;
+        }
+
+        .prev {
+            left: 10px;
+        }
+
+        .next {
+            right: 10px;
+        }
+
+        
+        .block .videos {
+            display: flex;
+            gap: 1rem;
+            flex-wrap: wrap;
+        }
+
+        .block .videos video {
+            width: calc(33.33% - 1rem);
+            height: auto;
+            display: block;
+        }
+
+        @media (max-width: 768px) {
+            .carousel-images img {
+                width: 100%;
+                flex: 0 0 100%;
+            }
+            .block .videos video {
+                width: 100%;
+                margin-bottom: 1rem;
+            }
+        }
+        .project .row{
+            vertical-align: middle;
+            align-items: top;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            margin-bottom: 1em;
+        }
+        .project-name {
+            margin-right: 1em;
+            margin-bottom: 0.5em;
+/*            background-color: grey;
+            color: white;*/
+        }
+
+        .project-name::after{
+            content: "";
+            display: block;
+            width: 100%;
+            height: 2px;
+            background-color: black;
+        }
+
+        .project-description {
+            max-width: 34em;
+            text-align: justify;
+        }
+    </style>
+</head>
+
+<body>
+<header>
+    <script src="header.js"></script>
+</header>
+
+<div class="page">
+
+    <div class="block">
+        <h1 data-i18n="portfolio.title">Portfolio</h1>
+    </div>
+
+    <div class="block">
+        <div class="project">
+            <!-- First Row: Project Name and Description -->
+            <div class="row">
+                <div class="project-name">
+                    <h2 id="doner_eleven" data-i18n="portfolio.doner_eleven.name">Doner Eleven</h2>
+                </div>
+                <div class="project-description">
+                    <p data-i18n="portfolio.doner_eleven.description">
+                        I designed a brand identity that made the restaurant stand out and easy to recognize.<br><br> My visual communication attracted the target audience, and my photos on a delivery app helped the restaurant become one of the most popular in the city. I also created a content strategy that <b>grew their Instagram from 0 to 8,500 followers</b> and built a loyal customer base.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Second Row: Pure CSS Carousel for Photos -->
+            <div class="carousel">
+                <div class="carousel-images" id="carouselImages">
+                    <img src="projects/1_doner/1.jpg">
+                    <img src="projects/1_doner/2.jpg">
+                    <img src="projects/1_doner/3.jpg">
+                    <img src="projects/1_doner/4.jpg">
+                </div>
+                <button class="prev">❮</button>
+                <button class="next">❯</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="block">
+        <div class="project">
+            <div class="row">
+                <div class="project-name">
+                    <h2 id="sezim" data-i18n="portfolio.sezim.name">Sezim</h2>
+                </div>
+                <div class="project-description">
+                    <p data-i18n="portfolio.sezim.description">
+                        The restaurant was launching a new menu with a new concept, and my task was to develop a visual style for the photos that would highlight it.<br><br> I decided to create photos with the atmosphere of dining in a restaurant in Tuscany. At the time of the menu launch, the city was just starting to warm up, but people were already craving a spring, warm atmosphere. The photos on the restaurant’s social media matched the desires of the customers, which attracted a flow of new guests.
+                    </p>
+                </div>
+            </div>
+
+            <div class="carousel">
+                <div class="carousel-images" id="carouselImages">
+                    <img src="projects/2_sezim/1.jpg">
+                    <img src="projects/2_sezim/2.jpg">
+                    <img src="projects/2_sezim/3.jpg">
+                    <img src="projects/2_sezim/4.jpg">
+                </div>
+                <button class="prev">❮</button>
+                <button class="next">❯</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="block">
+        <div class="project">
+            <div class="row">
+                <div class="project-name">
+                    <h2 id="bling_ring" data-i18n="portfolio.bling_ring.name">Bling Ring</h2>
+                </div>
+                <div class="project-description">
+                    <p data-i18n="portfolio.bling_ring.description">
+                        The company needed high-quality content for their new jewelry collection intended for social media channels.<br><br> I developed the visual concept for their social media and photographed the products. By utilizing hard lighting techniques and incorporating natural props, I aimed to capture the essence of a scorching summer day. For the portrait shoot, I used soft lighting to achieve a natural look and ensure the focus remained on the jewelry without any distractions from the skin's appearance.
+                    </p>
+                </div>
+            </div>
+
+            <div class="carousel">
+                <div class="carousel-images" id="carouselImages">
+                    <img src="projects/3_jewelry/1.jpg">
+                    <img src="projects/3_jewelry/2.jpg">
+                    <img src="projects/3_jewelry/3.jpg">
+                    <img src="projects/3_jewelry/4.jpg">
+                </div>
+                <button class="prev">❮</button>
+                <button class="next">❯</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="block">
+        <div class="project">
+            <div class="row">
+                <div class="project-name">
+                    <h2 id="okraina" data-i18n="portfolio.okraina.name">Okraina</h2>
+                </div>
+                <div class="project-description">
+                    <p data-i18n="portfolio.okraina.description">
+                        The meat product company was introducing new items to their range.<br><br> They needed a way to draw attention to these products in their online store. I suggested releasing a simple recipe featuring one of these products on the website once a week, with a possible discount on it. I created the recipes, photographed each step of the preparation process, and also designed banners for the website's homepage.
+                    </p>
+                </div>
+            </div>
+
+            <div class="carousel">
+                <div class="carousel-images" id="carouselImages">
+                    <img src="projects/4_okraina/1.jpg">
+                    <img src="projects/4_okraina/2.jpg">
+                    <img src="projects/4_okraina/3.jpg">
+                    <img src="projects/4_okraina/4.jpg">
+                </div>
+                <button class="prev">❮</button>
+                <button class="next">❯</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="block">
+        <div class="project">
+            <div class="row">
+                <div class="project-name">
+                    <h2 id="video" data-i18n="portfolio.video.name">Video</h2>
+                </div>
+                <div class="project-description">
+                    <p data-i18n="portfolio.video.description">
+                        I also help brands create engaging short videos for social media.<br><br>Before shooting, I always conduct an analysis of the brand's image and audience needs. For example, the pace of the narrative and the length of the shots depend on the target audience's age. I prefer creating videos with a story, a little narrative, like a short film. I shoot videos with a camera, write scripts for them, and handle the editing.
+                    </p>
+                </div>
+            </div>
+
+            <div class="videos">
+                <video controls>
+                    <source src="projects/5_video/video_0.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <video controls>
+                    <source src="projects/5_video/video_1.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <video controls>
+                    <source src="projects/5_video/video_2.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+        </div>
+    </div>
+
+    <div class="block">
+        <div class="project">
+            <div class="row">
+                <div class="project-name">
+                    <h2 id="vegafood" data-i18n="portfolio.vegafood.name">Vegafood</h2>
+                </div>
+                <div class="project-description">
+                    <p data-i18n="portfolio.vegafood.description">
+                        I developed a shooting production process for a vegan product company that helped them save money and use the same photos across social media, their website, and more.<br><br> I called it <b>3-in-1 shots</b>. I chose formats and compositions that could be easily cropped for Instagram, website banners, and product covers without losing quality. This cost-saving approach allowed the company to create more content and promote their products more effectively.
+                    </p>
+                </div>
+            </div>
+
+            <div class="carousel">
+                <div class="carousel-images" id="carouselImages">
+                    <img src="projects/6_vegafood/1.jpg">
+                    <img src="projects/6_vegafood/2.jpg">
+                    <img src="projects/6_vegafood/3.jpg">
+                    <img src="projects/6_vegafood/4.jpg">
+                </div>
+                <button class="prev">❮</button>
+                <button class="next">❯</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="block">
+        <div class="project">
+            <div class="row">
+                <div class="project-name">
+                    <h2 id="zero_waste" data-i18n="portfolio.zero_waste.name">Zero Waste Shop Moscow</h2>
+                </div>
+                <div class="project-description">
+                    <p data-i18n="portfolio.zero_waste.description">
+                        In Moscow in 2019, there were many zero-waste stores, and their social media accounts looked very similar, causing people to confuse the stores with each other.<br><br> So, I developed a unique atmosphere and color palette specifically for this store. Initially, my task was to attract an audience of 18 to 25-year-olds, but after conducting market research, we shifted the focus to people aged 26 to 40. The store became easier to recognize and stood out from competitors, which increased the share of regular customers.
+                    </p>
+                </div>
+            </div>
+
+            <div class="carousel">
+                <div class="carousel-images" id="carouselImages">
+                    <img src="projects/7_zerowaste/1.jpg">
+                    <img src="projects/7_zerowaste/2.jpg">
+                    <img src="projects/7_zerowaste/3.jpg">
+                    <img src="projects/7_zerowaste/4.jpg">
+                </div>
+                <button class="prev">❮</button>
+                <button class="next">❯</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="block">
+        <div class="project">
+            <div class="row">
+                <div class="project-name">
+                    <h2 id="people" data-i18n="portfolio.people.name">People</h2>
+                </div>
+                <div class="project-description">
+                    <p data-i18n="portfolio.people.description">
+                        In photoshoots for personal blogs, my goal is to help the person analyze what they want to convey through their blog’s visuals and what message they want to send. In portrait photography, I aim to tell a story through the image, rather than just creating a beautiful shot. It’s an absolute taboo for me to retouch skin or alter body shapes in photos of people.
+                    </p>
+                </div>
+            </div>
+
+            <div class="carousel">
+                <div class="carousel-images" id="carouselImages">
+                    <img src="projects/8_people/1.jpg">
+                    <img src="projects/8_people/2.jpg">
+                    <img src="projects/8_people/3.jpg">
+                    <img src="projects/8_people/4.jpg">
+                </div>
+                <button class="prev">❮</button>
+                <button class="next">❯</button>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+
+
+
+
+<script>
+    let carousels = document.querySelectorAll('.carousel');
+    carousels.forEach((carousel, index) => {
+        let currentIndex = 0;
+        const images = carousel.querySelector('.carousel-images');
+        const totalImages = images.children.length;
+        let imagesPerSlide = window.innerWidth <= 768 ? 1 : 3;
+
+        window.addEventListener('resize', () => {
+            imagesPerSlide = window.innerWidth <= 768 ? 1 : 3;
+            showSlide(currentIndex, images, totalImages, imagesPerSlide);
+        });
+
+        function showSlide(index, images, totalImages, imagesPerSlide) {
+            if (window.innerWidth <= 768) {
+                if (index >= totalImages) currentIndex = 0;
+                if (index < 0) currentIndex = totalImages - 1;
+            } else {
+                if (index >= totalImages-2) currentIndex = 0;
+                if (index < 0) currentIndex = totalImages / 2;
+            }
+            // console.log(totalImages, ': ', currentIndex);
+            images.style.transform = `translateX(-${currentIndex * (100 / imagesPerSlide)}%)`;
+        }
+
+        carousel.querySelector('.next').addEventListener('click', () => {
+            currentIndex++;
+            showSlide(currentIndex, images, totalImages, imagesPerSlide);
+        });
+
+        carousel.querySelector('.prev').addEventListener('click', () => {
+            currentIndex--;
+            showSlide(currentIndex, images, totalImages, imagesPerSlide);
+        });
+    });
+</script>
+
+<footer>
+    <script src="footer.js"></script>
+</footer>
+
+</body>
+
+</html>

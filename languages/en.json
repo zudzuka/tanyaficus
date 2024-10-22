@@ -1,0 +1,148 @@
+{
+    "header": {
+        "portfolio": "PORTFOLIO",
+        "contacts": "CONTACTS",
+        "about": "ABOUT"
+    },
+    "index": {
+        "welcome_message": "Photographer and Content Creator",
+        "about_us": "I’ve been creating photo and video content for websites and social media for over 9 years. My goal is to help clients tell their story through visuals, attract their target audience, and build loyalty.<br><br>Strategy, analysis, and planning come first — then comes the aesthetics.",
+        "projects": "Projects",
+        "project_doner": "Doner Eleven",
+        "project_sezim": "Sezim",
+        "project_bling_ring": "Bling Ring",
+        "project_okraina": "Okraina",
+        "project_video": "Video",
+        "project_vegafood": "Vegafood",
+        "project_zero_waste": "Zero Waste Shop Moscow",
+        "project_people": "Portraits"
+    },
+    "footer": {
+        "impressum": "Legal notice",
+        "location": "Berlin, Germany"
+    },
+    "contacts": {
+        "title": "Contacts",
+        "description": "Shall we create an awesome project together? Email me or message me on Instagram to discuss the cost and timeline or to schedule a consultation. You can also reach me via the Google Contact Form linked below.",
+        "instagram": "@tanyaficus",
+        "form": "Contact Form",
+        "email": "pianykh.tatiana@gmail.com"
+    },
+    "about": {
+        "title": "About",
+        "services_title": "My Services:",
+        "services": {
+            "product_photography": "Product and food photography and videography",
+            "menu_photography": "Menu and delivery dish photography",
+            "personal_photoshoots": "Personal photoshoots for blogs",
+            "short_videos": "Short video production for various social media platforms",
+            "content_planning": "Social media content planning",
+            "content_consultation": "Social media content consultation"
+        },
+        "location_title": "Location:",
+        "location": "Berlin, Germany",
+        "description": "I have been creating visual content since the age of 16. I graduated with a degree in film and television directing. During my studies, I developed a strong interest in marketing and how brands communicate with their customers through visual imagery. This led to my professional focus on creating photo and video content for social media and websites. My background in directing enables me to incorporate storytelling elements into all of my work."
+    },
+    "portfolio": {
+        "title": "Portfolio",
+        "doner_eleven": {
+            "name": "Doner Eleven",
+            "description": "I designed a brand identity that made the restaurant stand out and easy to recognize.<br><br> My visual communication attracted the target audience, and my photos on a delivery app helped the restaurant become one of the most popular in the city. I also created a content strategy that <b>grew their Instagram from 0 to 8,500 followers</b> and built a loyal customer base."
+        },
+        "sezim": {
+            "name": "Sezim",
+            "description": "The restaurant was launching a new menu with a new concept, and my task was to develop a visual style for the photos that would highlight it.<br><br> I decided to create photos with the atmosphere of dining in a restaurant in Tuscany. At the time of the menu launch, the city was just starting to warm up, but people were already craving a spring, warm atmosphere. The photos on the restaurant’s social media matched the desires of the customers, which attracted a flow of new guests."
+        },
+        "bling_ring": {
+            "name": "Bling Ring",
+            "description": "The company needed high-quality content for their new jewelry collection intended for social media channels.<br><br> I developed the visual concept for their social media and photographed the products. By utilizing hard lighting techniques and incorporating natural props, I aimed to capture the essence of a scorching summer day. For the portrait shoot, I used soft lighting to achieve a natural look and ensure the focus remained on the jewelry without any distractions from the skin's appearance."
+        },
+        "okraina": {
+            "name": "Okraina",
+            "description": "The meat product company was introducing new items to their range.<br><br> They needed a way to draw attention to these products in their online store. I suggested releasing a simple recipe featuring one of these products on the website once a week, with a possible discount on it. I created the recipes, photographed each step of the preparation process, and also designed banners for the website's homepage."
+        },
+        "video": {
+            "name": "Video",
+            "description": "I also help brands create engaging short videos for social media.<br><br>Before shooting, I always conduct an analysis of the brand's image and audience needs. For example, the pace of the narrative and the length of the shots depend on the target audience's age. I prefer creating videos with a story, a little narrative, like a short film. I shoot videos with a camera, write scripts for them, and handle the editing."
+        },
+        "vegafood": {
+            "name": "Vegafood",
+            "description": "I developed a shooting production process for a vegan product company that helped them save money and use the same photos across social media, their website, and more.<br><br> I called it <b>3-in-1 shots</b>. I chose formats and compositions that could be easily cropped for Instagram, website banners, and product covers without losing quality. This cost-saving approach allowed the company to create more content and promote their products more effectively."
+        },
+        "zero_waste": {
+            "name": "Zero Waste Shop Moscow",
+            "description": "In Moscow in 2019, there were many zero-waste stores, and their social media accounts looked very similar, causing people to confuse the stores with each other.<br><br> So, I developed a unique atmosphere and color palette specifically for this store. Initially, my task was to attract an audience of 18 to 25-year-olds, but after conducting market research, we shifted the focus to people aged 26 to 40. The store became easier to recognize and stood out from competitors, which increased the share of regular customers."
+        },
+        "people": {
+            "name": "People",
+            "description": "In photoshoots for personal blogs, my goal is to help the person analyze what they want to convey through their blog’s visuals and what message they want to send. In portrait photography, I aim to tell a story through the image, rather than just creating a beautiful shot. It’s an absolute taboo for me to retouch skin or alter body shapes in photos of people."
+        }
+    },
+    "impressum": {
+        "title": "Imprint",
+        "name_label": "Name:",
+        "name": "Tatiana Pianykh",
+        "address_label": "Address:",
+        "address_line1": "Rathenower Straße 53",
+        "address_line2": "10559 Berlin",
+        "email_label": "Email:",
+        "email": "pianykh.tatiana@gmail.com",
+        "contact_form_label": "Quick communication:",
+        "contact_form": "Contact Form",
+        "vat_label": "VAT:",
+        "vat": "Site in development",
+
+        "copyright_title": "Copyright Notice",
+        "copyright_description": "All photos and videos on this website are made by Tatiana Pianykh. Unauthorized use, reproduction, or distribution of these materials is strictly prohibited.",
+
+        "privacy_title": "Privacy Policy",
+        "data_collection_title": "What Data Do We Collect?",
+        "data_collection_description": "This site collects minimal data, including:",
+        "data_collection": {
+            "contact": "Contact information: If you use the contact form, this site collects your name and email address.",
+            "usage": "Website usage data: Cookies may collect anonymous browsing information (such as which pages you visit). Additionally, IP addresses and logs of website usage may be collected and stored by GitHub Pages. Please refer to GitHub's Privacy Statement for more details."
+        },
+        "github_privacy_link": "GitHub Privacy Statement",
+
+        "data_collection_methods_title": "How Do We Collect Your Data?",
+        "data_collection_methods_description": "Your data is collected when you:",
+        "data_collection_methods": {
+            "contact": "Contact us: If you submit a message through the contact form, your name and email address are collected through Google Forms and stored in a Google Sheet.",
+            "website_use": "Use the website: Cookies are used to assist with language changes and the contact form.",
+            "email": "Write an email: If you write an email to our email address, your email information is stored with Google Mail (Gmail)."
+        },
+
+        "data_usage_title": "How Will We Use Your Data?",
+        "data_usage_description": "This site collects your data to:",
+        "data_usage": {
+            "respond": "Respond to your inquiries: If you contact us, your information is used to respond to your messages.",
+            "improve": "Improve the website: Anonymous website usage data helps improve the user experience."
+        },
+
+        "data_storage_title": "How Do We Store Your Data?",
+        "data_storage_description": "Since this website is hosted on GitHub Pages, there is no personal data stored directly on the website's server. If you contact us, your email information will be securely stored in our email account, which follows standard security protocols. Emails are stored with Google Mail (Gmail), which has its own security measures in place. Data from the contact form is stored securely in a Google Sheet.",
+
+        "cookies_title": "Cookies",
+        "cookies_description": "Cookies are small text files placed on your device to help analyze web traffic or keep track of website visits. This website uses minimal cookies for:",
+        "cookies": {
+            "language": "Language preference: Cookies help remember your language settings.",
+            "contact_form": "Contact form: Cookies assist with the functioning of the contact form."
+        },
+        "cookies_disable": "You can disable cookies through your browser settings, but this may affect some website functionality.",
+
+        "external_links_title": "Links to Other Websites",
+        "external_links_description": "This website may contain links to external sites. Please note that this privacy policy applies only to this website, and if you click on a link to another website, you should read their privacy policy.",
+
+        "policy_changes_title": "Changes to This Privacy Policy",
+        "policy_changes_description": "This privacy policy is kept under regular review and any updates will be posted on this page. This privacy policy was last updated on 2024-10-19.",
+
+        "contact_us_title": "Contact Us",
+        "contact_us_description": "If you have any questions about this privacy policy, please feel free to contact us at:",
+
+        "terms_title": "Terms and Conditions",
+        "terms_description": "The content provided on this website is for informational purposes only. While every effort is made to ensure that the information provided is accurate and up-to-date, we make no guarantees regarding the completeness, accuracy, reliability, suitability, or availability of the content on this site. Any reliance you place on such information is strictly at your own risk.",
+        "terms_liability": "We are not liable for any losses or damages, including but not limited to, indirect or consequential losses or damages, arising from the use of this website. This includes, but is not limited to, any information, products, services, or related graphics contained on the website.",
+        "terms_external_links": "Links to external websites are provided for convenience and informational purposes only; we do not endorse nor take responsibility for the content or accuracy of external websites. We are not liable for any issues that may arise from the use of third-party links.",
+        "terms_modification": "We reserve the right to modify these terms at any time without prior notice. By continuing to use the website after changes are posted, you agree to be bound by the modified terms and conditions."
+    }
+}
